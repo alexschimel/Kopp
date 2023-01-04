@@ -1,0 +1,129 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="888506454" file="C:\Users\Schimel_Alexandre\Code\MATLAB\Pull\Pull.prj" location="C:\Users\Schimel_Alexandre\Code\MATLAB\Pull" name="Pull" preferred-package-location="C:\Users\Schimel_Alexandre\Code\MATLAB\Pull\Pull\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>Pull</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>0.0.1</param.version>
+    <param.authnamewatermark>Alexandre Schimel</param.authnamewatermark>
+    <param.email>alexandre.schimel@ngu.no</param.email>
+    <param.company>NGU</param.company>
+    <param.summary>Multibeam mode summary</param.summary>
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\NGU\Pull\v0.0.1</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\bin\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\bin\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\bin\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\bin</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>pull_v001_setup</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>false</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments</param.help.text>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Pull.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${MATLAB_ROOT}\toolbox\local\userpath.m</file>
+      <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\CFF_coffee_version.m</file>
+      <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\general\CFF_Comms.m</file>
+      <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\read_data_files\CFF_check_filename.m</file>
+      <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\read_data_files\CFF_file_extension.m</file>
+      <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\read_data_files\CFF_file_name.m</file>
+      <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\read_data_files\CFF_fileparts_as_cell.m</file>
+      <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\read_data_files\CFF_list_raw_files_in_dir.m</file>
+      <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\read_data_files\CFF_onerawfileonly.m</file>
+      <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\read_data_files\Kongsberg\format_all\CFF_all_file_info.m</file>
+      <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\read_data_files\Kongsberg\format_all\CFF_check_ALLfilename.m</file>
+      <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\read_data_files\Kongsberg\format_all\CFF_decode_RuntimeParameters.m</file>
+      <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\read_data_files\Kongsberg\format_all\CFF_read_all.m</file>
+      <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\read_data_files\Kongsberg\format_all\CFF_read_all_from_fileinfo.m</file>
+      <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\toolboxes\dispstat\dispstat.m</file>
+      <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\toolboxes\textprogressbar\textprogressbar.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\bin\for_testing" name="splash.png" optional="false">C:\Users\Schimel_Alexandre\Code\MATLAB\Pull\bin\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\bin\for_testing" name="readme.txt" optional="true">C:\Users\Schimel_Alexandre\Code\MATLAB\Pull\bin\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\bin\for_testing" name="Pull.exe" optional="false">C:\Users\Schimel_Alexandre\Code\MATLAB\Pull\bin\for_testing\Pull.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2020b</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
