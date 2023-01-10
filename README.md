@@ -4,7 +4,7 @@
 
 Tracking multibeam sonar raw data parameter changes.
 
-[![](https://github.com/alexschimel/Kopp/blob/55ed0917771641ac21207f6566924e4cf995908f/Kopp_resources/download.png)](https://github.com/alexschimel/Kopp/releases/download/v1.0.0/Kopp_v100_setup.exe)
+[![](https://github.com/alexschimel/Kopp/blob/29931f45e747c7f5eafef3ce6894e0131ae5f1ee/Kopp_resources/download.png)](https://github.com/alexschimel/Kopp/releases/download/v1.0.0/Kopp_v100_setup.exe)
 
 ## Description
 
@@ -48,7 +48,7 @@ Note: At start-up, *Kopp* creates a `Kopp` user folder (normally, C:\Users\USERN
 
 *Kopp* is a tiny tool. The following should be all the help you need:
 1. Click the `Choose folder` button. Select a folder with raw data files. 
-2. *Kopp* will list all raw data files supported found in this folder and sub-folders, and for each in turn it will parse the file and extract the parameters in it.
+2. *Kopp* will list all supported raw data files found in this folder and its sub-folders, and for each file in turn it will parse the file and extract the parameters in it.
 3. The parameter changes are then sorted chronologically and printed on the accompanying console.
 4. When you close the software, the contents of the console are saved as a log file to be found in the `Kopp` user folder (normally, C:\Users\USERNAME\Documents\Kopp).
 
@@ -58,7 +58,7 @@ For more information, contact the authors.
 
 ## Authors
 
-* Alexandre Schimel([The Geological Survey of Norway](https://www.ngu.no), alexandre.schimel@ngu.no)
+* Alexandre Schimel ([The Geological Survey of Norway](https://www.ngu.no), alexandre.schimel@ngu.no)
 * Margaret Dolan, Shyam Shand, Terje Thorsnes, Lilja Rún Bjarnadóttir (The Geological Survey of Norway)
 
 ## Version History
