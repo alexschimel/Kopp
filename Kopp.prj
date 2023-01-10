@@ -12,9 +12,9 @@
     <param.authnamewatermark>Alexandre Schimel</param.authnamewatermark>
     <param.email>alexandre.schimel@ngu.no</param.email>
     <param.company>NGU</param.company>
-    <param.summary>Multibeam mode summary</param.summary>
-    <param.description />
-    <param.screenshot>${PROJECT_ROOT}\Kopp_resources\icon_400.png</param.screenshot>
+    <param.summary>Tracking multibeam sonar raw data parameter changes</param.summary>
+    <param.description>Kopp (Norwegian Bokmål for "cup") is a free and open-source app that find and list all changes in parameters in a list of consecutive multibeam sonar raw data files. The main purpose of this simple tool is to check for unwanted settings changes as these tend to negatively affect a backscatter mosaic produced from these files.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\Kopp_resources\splash.png</param.screenshot>
     <param.guid />
     <param.installpath.string>\Kopp\v1.0.0</param.installpath.string>
     <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
@@ -51,7 +51,6 @@
       <param.authnamewatermark />
       <param.email />
       <param.company />
-      <param.description />
       <param.guid />
       <param.installpath.combo />
       <param.install.notes />
@@ -78,7 +77,7 @@
     <fileset.package />
     <fileset.depfun>
       <file>${MATLAB_ROOT}\toolbox\local\userpath.m</file>
-      <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\apps\coffee_logo\icon_48.png</file>
+      <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\apps\logo\icon_48.png</file>
       <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\CFF_coffee_version.m</file>
       <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\general\CFF_Comms.m</file>
       <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\read_data_files\CFF_check_filename.m</file>

@@ -8,14 +8,13 @@ Tracking multibeam sonar raw data parameter changes.
 
 ## Description
 
-*Kopp* (Norwegian Bokmål for "cup") is a free and open-source app that find and list all changes in parameters in a list of consecutive multibeam sonar raw data files. The main purpose of this simple tool is to check for unwanted settings changes as these tend to negatively affect a backscatter mosaic produced from these files. 
+*Kopp* (Norwegian Bokmål for "cup") is a free and open-source app that finds and lists all changes in parameters in a list of consecutive multibeam sonar raw data files. The main purpose of this simple tool is to check for unwanted settings changes as these tend to negatively affect a backscatter mosaic produced from these files. 
 
 *Kopp* uses the [*CoFFee* multibeam data processing toolbox](https://github.com/alexschimel/CoFFee) (hence the name). It is coded in [MATLAB](https://www.mathworks.com/products/matlab.html), but is also available as a standalone application that does not require a MATLAB licence (see the Dependencies and Installing sections).
 
-*Kopp* is still at an early stage of development. For now, it only works with Kongsberg EM Series files in the \*.all format. Contrary to other *CoFFee*-based apps, *Kopp* does not save converted data on the hard-drive or keep them in memory, so there should be no limitation in the number/size of files you thrown at it.
+*Kopp* is still at an early stage of development. For now, it only works with Kongsberg EM Series files in the \*.all format. Contrary to other *CoFFee*-based apps, *Kopp* does not save converted data on the hard-drive and does not keep converted data in memory after the necessary information is extracted, so there should be no limitation in the number/size of files you throw at it.
 
 ![](https://github.com/alexschimel/Kopp/blob/55ed0917771641ac21207f6566924e4cf995908f/Kopp_resources/screenshot_Kopp_v100.png)
-
 
 ## Getting Started
 
