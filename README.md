@@ -4,7 +4,7 @@
 
 Tracking multibeam sonar raw data parameter changes.
 
-[![](https://github.com/alexschimel/Kopp/blob/55ed0917771641ac21207f6566924e4cf995908f/Kopp_resources/download.png | width=100)](https://github.com/alexschimel/Kopp/releases/download/v1.0.0/Kopp_v100_setup.exe)
+[![](https://github.com/alexschimel/Kopp/blob/55ed0917771641ac21207f6566924e4cf995908f/Kopp_resources/download.png)](https://github.com/alexschimel/Kopp/releases/download/v1.0.0/Kopp_v100_setup.exe)
 
 ## Description
 
