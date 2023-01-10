@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration build-checksum="2149626653" file="C:\Users\Schimel_Alexandre\Code\MATLAB\Kopp\Kopp.prj" location="C:\Users\Schimel_Alexandre\Code\MATLAB\Kopp" name="Kopp" preferred-package-location="C:\Users\Schimel_Alexandre\Code\MATLAB\Kopp\bin\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="2124876890" file="C:\Users\Schimel_Alexandre\Code\MATLAB\Kopp\Kopp.prj" location="C:\Users\Schimel_Alexandre\Code\MATLAB\Kopp" name="Kopp" preferred-package-location="C:\Users\Schimel_Alexandre\Code\MATLAB\Kopp\bin\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>Kopp</param.appname>
     <param.icon>${PROJECT_ROOT}\Kopp_resources\icon.ico</param.icon>
     <param.icons>
@@ -16,7 +16,7 @@
     <param.description />
     <param.screenshot>${PROJECT_ROOT}\Kopp_resources\icon_400.png</param.screenshot>
     <param.guid />
-    <param.installpath.string>\NGU\Kopp\v1.0.0</param.installpath.string>
+    <param.installpath.string>\Kopp\v1.0.0</param.installpath.string>
     <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
     <param.logo>${PROJECT_ROOT}\Kopp_resources\splash_half.png</param.logo>
     <param.install.notes />
