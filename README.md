@@ -1,10 +1,10 @@
-![](https://github.com/alexschimel/Kopp/blob/main/Kopp_resources/banner.png)
+![](https://github.com/alexschimel/Kopp/blob/master/Kopp_resources/banner.png)
 
 # *Kopp* 
 
 Tracking multibeam sonar raw data parameter changes.
 
-[![](https://github.com/alexschimel/Kopp/blob/main/Kopp_resources/download.png)](https://github.com/alexschimel/Kopp/releases/download/v1.0.0/Kopp_v100_setup.exe)
+[![](https://github.com/alexschimel/Kopp/blob/master/Kopp_resources/download.png)](https://github.com/alexschimel/Kopp/releases/download/v1.0.0/Kopp_v100_setup.exe)
 
 ## Description
 
@@ -14,7 +14,7 @@ Tracking multibeam sonar raw data parameter changes.
 
 *Kopp* is still at an early stage of development. For now, it only works with Kongsberg EM Series files in the \*.all format. Contrary to other *CoFFee*-based apps, *Kopp* does not save converted data on the hard-drive and does not keep converted data in memory after the necessary information is extracted, so there should be no limitation in the number/size of files you throw at it.
 
-![](https://github.com/alexschimel/Kopp/blob/main/Kopp_resources/screenshot.png)
+![](https://github.com/alexschimel/Kopp/blob/master/Kopp_resources/screenshot.png)
 
 ## Getting Started
 
