@@ -77,7 +77,6 @@
     <fileset.package />
     <fileset.depfun>
       <file>${MATLAB_ROOT}\toolbox\local\userpath.m</file>
-      <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\apps\logo\icon_48.png</file>
       <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\CFF_coffee_version.m</file>
       <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\general\CFF_Comms.m</file>
       <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\read_data_files\CFF_check_filename.m</file>
@@ -93,6 +92,7 @@
       <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\read_data_files\Kongsberg\format_all\CFF_read_all_from_fileinfo.m</file>
       <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\toolboxes\dispstat\dispstat.m</file>
       <file>C:\Users\Schimel_Alexandre\Code\MATLAB\CoFFee\toolboxes\textprogressbar\textprogressbar.m</file>
+      <file>${PROJECT_ROOT}\Kopp_resources\figure_icon.png</file>
     </fileset.depfun>
     <build-deliverables>
       <file location="${PROJECT_ROOT}\bin\for_testing" name="Kopp.exe" optional="false">C:\Users\Schimel_Alexandre\Code\MATLAB\Kopp\bin\for_testing\Kopp.exe</file>
@@ -102,7 +102,14 @@
     <workflow />
     <matlab>
       <root>C:\Program Files\MATLAB\R2020b</root>
-      <toolboxes />
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
     </matlab>
     <platform>
       <unix>false</unix>
