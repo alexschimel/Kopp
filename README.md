@@ -4,7 +4,13 @@
 
 Tracking multibeam sonar raw data parameter changes.
 
-[![](https://github.com/alexschimel/Kopp/blob/master/Kopp_resources/download.png)](https://github.com/alexschimel/Kopp/releases/download/v1.1.0/Kopp_v110_setup.exe)
+# IMPORTANT! *KOPP* IS NO LONGER DEVELOPED AS AN INDEPENDENT APP
+
+As of 10/07/2023, *Kopp* is now a feature of [the *Iskaffe* app](https://github.com/alexschimel/Iskaffe), and is thus no longer developed as an independent app.
+
+This *Kopp* repository and README page stays up so that you can still clone the code, or download/use the last executable of *Kopp* as an independent app ([last version v1.1.0](https://github.com/alexschimel/Kopp/releases)).
+
+But if you want more recent developments of this "Multibeam parameter change tracking" functionality, head over to [the *Iskaffe* page](https://github.com/alexschimel/Iskaffe). In *Iskaffe* v0.2, the *Kopp* functionality is accessible from the *Iskaffe* "Tools" menu, submenu "batch processing".
 
 ## Description
 
@@ -83,7 +89,5 @@ None to date.
 ## References 
 
 None to date.
-
-## For developers
 
 [See the 'For developers' section on the *CoFFee* page](https://github.com/alexschimel/CoFFee)
